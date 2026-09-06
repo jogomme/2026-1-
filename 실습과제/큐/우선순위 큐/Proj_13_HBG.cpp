@@ -29,8 +29,7 @@ element delete_max_heap(element* list, int& heap_size)
 	element item, temp;
 
 	item = list[1];            
-	temp = list[heap_size];    
-	heap_size--;               
+	temp = list[heap_size--];    
 
 	parent = 1;
 	child = 2;
